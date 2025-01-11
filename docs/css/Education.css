@@ -198,7 +198,6 @@ body {
     }
   }
   table {
-    width: 100%; /* Make the table span the full width of its container */
     border-collapse: collapse; /* Merge table borders into a single line */
     margin: 20px 0; /* Add space above and below the table */
     justify-self: center;
