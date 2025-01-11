@@ -232,4 +232,34 @@ color: #00796b;
  .vids p{
   color:#00796b;
  }
+/* Responsive Styles */
+@media (max-width: 768px) {
+  
+
+  .vids {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .vids video {
+    width: 100%;
+    height: 400px;
+  }
+  }
+
+
+@media (max-width: 480px) {
+  .vids video {
+    width: 100%;
+    height: 200px;
+  }
+
+  .vids p {
+    font-size: 14px;
+  }
+
+}
+
 
